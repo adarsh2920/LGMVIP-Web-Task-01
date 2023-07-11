@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif; /* Set the font family for the entire body */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding to the body */
+    background-color: #f2f2f2; /* Set the background color for the body */
+  }
+  
+  h1 {
+    text-align: center; /* Center align the heading */
+    color: #333; /* Set the color of the heading */
+  }
+  
+  #container {
+    margin-top: 20px; /* Add margin at the top of the container */
+    background-color: #fff; /* Set the background color of the container */
+    padding: 20px; /* Add padding to the container */
+    border-radius: 5px; /* Add rounded corners to the container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow to the container */
+  }
+  
+  input[type="text"] {
+    padding: 10px; /* Add padding to the text input */
+    width: 100%; /* Set the width of the text input to 100% */
+    border: none; /* Remove the border of the text input */
+    border-radius: 3px; /* Add rounded corners to the text input */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Add an inner box shadow to the text input */
+  }
+  
+  button {
+    padding: 10px 20px; /* Add padding to the button */
+    background-color: #4caf50; /* Set the background color of the button */
+    color: #fff; /* Set the text color of the button */
+    border: none; /* Remove the border of the button */
+    border-radius: 3px; /* Add rounded corners to the button */
+    cursor: pointer; /* Change the cursor style to a pointer on hover */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Change the background color of the button on hover */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove the default bullet points for the list */
+    padding: 0; /* Remove padding from the list */
+  }
+  
+  li {
+    margin-bottom: 10px; /* Add margin at the bottom of each list item */
+    padding: 10px; /* Add padding to each list item */
+    background-color: #fff; /* Set the background color of each list item */
+    border-radius: 3px; /* Add rounded corners to each list item */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Add a box shadow to each list item */
+    position: relative; /* Set the position of each list item as relative */
+  }
+  
+  li.done {
+    text-decoration: line-through; /* Add line-through text decoration to completed list items */
+    color: #888; /* Set the text color of completed list items */
+  }
+  
+  li.done:hover {
+    background-color: #f2f2f2; /* Change the background color of completed list items on hover */
+  }
+  
+  li:before {
+    content: "\2714"; /* Add a checkmark symbol before each list item */
+    position: absolute; /* Set the position of the checkmark symbol as absolute */
+    top: 50%; /* Position the checkmark symbol at the center vertically */
+    left: -30px; /* Position the checkmark symbol outside the list item on the left */
+    transform: translateY(-50%); /* Adjust the vertical alignment of the checkmark symbol */
+    font-size: 20px; /* Set the font size of the checkmark symbol */
+  }
+  
+  li.done:before {
+    content: "\2713"; /* Change the checkmark symbol to a tick symbol for completed list items */
+    color: #4caf50; /* Set the color of the tick symbol for completed list items */
+  }
+  
+  ul {
+    margin-top: 10px; /* Add margin at the top of the list */
+  }
+  
+  button,
+  input[type="text"] {
+    margin-right: 10px; /* Add right margin to the button and text input */
+  }
+  
