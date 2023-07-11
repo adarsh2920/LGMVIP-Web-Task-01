@@ -19,9 +19,9 @@ To get started with the Todo List web app
 
 ## Technologies Used
 
-HTML: Used for the structure and layout of the web app.
-CSS: Used for styling and design.
-JavaScript: Used for the interactive features and logic of the app.
+- HTML: Used for the structure and layout of the web app.
+- CSS: Used for styling and design.
+- JavaScript: Used for the interactive features and logic of the app.
 
 ## Contributing
 
