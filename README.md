@@ -4,9 +4,9 @@ This is a simple Todo List web app built using HTML, CSS, and JavaScript. It all
 
 ## Features
 
-✅ Add new tasks to the list
-✅ Mark tasks as completed
-🔄 Store tasks in the browser's local storage for data persistence
+- ✅ Add new tasks to the list
+- ✅ Mark tasks as completed
+- 🔄 Store tasks in the browser's local storage for data persistence
 
 ## Getting Started
 
