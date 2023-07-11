@@ -10,7 +10,7 @@ This is a simple Todo List web app built using HTML, CSS, and JavaScript. It all
 
 ## Getting Started
 
-To get started with the Todo List web app, follow these steps:
+To get started with the Todo List web app
 
 1. Clone the repository:
 
